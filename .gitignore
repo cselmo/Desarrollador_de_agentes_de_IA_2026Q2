@@ -17,3 +17,6 @@ venv/
 
 # Material solo para el docente — no se distribuye a los alumnos
 docente/
+
+# Carpeta de trabajo personal/scratch, no es parte del curso
+daia-clase2/
