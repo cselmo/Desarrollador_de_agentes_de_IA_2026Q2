@@ -12,7 +12,15 @@ Es un **único trabajo práctico, igual para todos los participantes** — no ha
 
 ## Dominio y dataset de referencia
 
-Corpus de documentación técnica pública (manuales/documentación de un producto o API de uso abierto, sin datos sensibles ni información propietaria), provisto por la cátedra al inicio de la Clase 1. Se usa el mismo corpus en todos los laboratorios de la cursada.
+**Corpus: MDN Web Docs — JavaScript Guide** (Mozilla Developer Network), licencia **CC-BY-SA 2.5**.
+
+- Repositorio: [github.com/mdn/content](https://github.com/mdn/content)
+- Subconjunto a usar: [`files/en-us/web/javascript/guide/`](https://github.com/mdn/content/tree/main/files/en-us/web/javascript/guide) — 28 subtemas (closures, prototipos, promesas, iteradores, módulos, etc.), cada uno como un archivo `index.md`.
+- Para bajarlo sin clonar el repo completo (es grande): usar `git sparse-checkout`, o descargar la carpeta puntual vía la API de GitHub (`gh api repos/mdn/content/contents/files/en-us/web/javascript/guide`) y los `raw.githubusercontent.com/...index.md` de cada subtema.
+- Documentos en **inglés** — es intencional: el corpus real de muchas organizaciones también lo está, y resolverlo agrega una variable más (¿el LLM responde en español sobre un corpus en inglés? ¿hace falta traducir en la ingesta?).
+- Licencia CC-BY-SA 2.5: se puede usar, adaptar y redistribuir con atribución a Mozilla Contributors — mantener esa atribución en cualquier material que se comparta fuera de la cursada.
+
+Se usa el mismo corpus en todos los laboratorios de la cursada, desde la Clase 4 (ingesta) en adelante.
 
 ## Checkpoints por clase
 
