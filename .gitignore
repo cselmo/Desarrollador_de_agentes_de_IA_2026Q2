@@ -20,3 +20,8 @@ docente/
 
 # Carpeta de trabajo personal/scratch, no es parte del curso
 daia-clase2/
+
+# Datos generados localmente al correr los notebooks (bases de ChromaDB, índices FAISS, etc.)
+chroma_data/
+*.faiss
+*.index
