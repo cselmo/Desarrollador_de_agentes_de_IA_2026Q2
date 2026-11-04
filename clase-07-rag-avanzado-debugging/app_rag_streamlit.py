@@ -105,11 +105,12 @@ def armar_contexto(chunks: list[dict]) -> str:
     return "\n\n".join(f"[{i + 1}] (fuente: {c['doc']}) {c['texto']}" for i, c in enumerate(chunks))
 
 
-def responder_rag(consulta: str, k: int = 3, umbral_distancia: float = 1.0) -> dict:
+def responder_rag(consulta: str, k: int = 3, umbral_distancia: float = 100.0) -> dict:
     client = get_bedrock_client()
     coleccion = get_coleccion()
 
     chunks = recuperar(client, coleccion, consulta, k)
+    print(chunks)
     chunks_relevantes = [c for c in chunks if c["distancia"] < umbral_distancia]
 
     if not chunks_relevantes:
