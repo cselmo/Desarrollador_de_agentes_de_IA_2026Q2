@@ -1,0 +1,7 @@
+boto3
+python-dotenv
+chromadb
+pydantic
+rank_bm25
+ragas
+langchain-aws
