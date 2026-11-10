@@ -22,6 +22,18 @@ Es un **único trabajo práctico, igual para todos los participantes** — no ha
 
 Se usa el mismo corpus en todos los laboratorios de la cursada, desde la Clase 4 (ingesta) en adelante.
 
+## Sistema de tickets (herramientas del agente)
+
+Desde la Clase 9, el sistema deja de limitarse a responder (o decir "no sé") — cuando el RAG no encuentra evidencia suficiente, en vez de solo devolver un mensaje, **abre un ticket de soporte** automáticamente. Esa es, concretamente, la decisión "RAG vs. herramienta externa" que pide el checkpoint 10.
+
+Persistencia en **SQLite** (`tickets.db`, un archivo local — sin infraestructura externa, igual para toda la cohorte). Tabla mínima: `id`, `pregunta`, `contexto_recuperado` (qué trajo el RAG antes de fallar, aunque no haya alcanzado), `estado` (`abierto` / `escalado` / `resuelto`), `motivo_escalamiento`, `fecha_creacion`.
+
+Tres herramientas sobre esa tabla:
+
+1. **`crear_ticket(pregunta, contexto_recuperado)`** — se invoca automáticamente cuando el pipeline RAG no supera el umbral de evidencia (Clase 6-7). No requiere aprobación humana (solo registra, no actúa sobre nada externo).
+2. **`consultar_estado_ticket(ticket_id)`** — herramienta de **solo lectura**. Cubre el checkpoint 9 (herramienta externa con contrato de entrada/salida validado).
+3. **`escalar_ticket(ticket_id, motivo)`** — **modifica estado** (acción real, no solo lectura). Por eso es la que lleva el punto de **aprobación humana antes de ejecutar** del checkpoint 10.
+
 ## Checkpoints por clase
 
 Cada laboratorio semanal agrega una pieza al mismo proyecto. Al final de cada clase el estudiante debe tener:
@@ -36,8 +48,8 @@ Cada laboratorio semanal agrega una pieza al mismo proyecto. Al final de cada cl
 | 6 | Pipeline RAG end-to-end: consulta → recuperación → contexto → respuesta generada. |
 | 7 | Casos fallidos del RAG identificados, diagnosticados y corregidos. |
 | 8 | Dataset de evaluación armado y métricas base (fidelidad, relevancia, costo, latencia) medidas. |
-| 9 | Al menos una herramienta externa integrada con tool calling, con contrato de entrada/salida validado. |
-| 10 | Workflow con estado (LangGraph o equivalente) que decide entre consulta RAG y herramienta externa, con un punto de aprobación humana para acciones sensibles. |
+| 9 | Sistema de tickets en SQLite funcionando, con `consultar_estado_ticket` integrada por tool calling (contrato de entrada/salida validado). |
+| 10 | Workflow con estado (LangGraph o equivalente): si el RAG no tiene evidencia suficiente, llama a `crear_ticket` en vez de solo responder "no sé"; `escalar_ticket` requiere aprobación humana antes de ejecutarse. |
 | 11 | Sistema expuesto vía FastAPI, con logging estructurado, manejo de errores y checklist de seguridad aplicado. |
 | 12 | Integración final, pruebas end-to-end, documentación, diagrama de arquitectura y entrega. |
 
