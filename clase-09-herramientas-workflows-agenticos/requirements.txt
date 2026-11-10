@@ -1,0 +1,8 @@
+boto3
+python-dotenv
+chromadb
+pydantic
+
+# Opcionales: solo si corrés la sección 3 (tool calling en otros proveedores) con ese proveedor
+openai
+anthropic
