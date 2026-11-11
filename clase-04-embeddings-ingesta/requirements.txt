@@ -1,0 +1,9 @@
+boto3
+python-dotenv
+numpy
+tiktoken
+
+# Opcionales: solo si corrés la sección 3 (tu proveedor) con ese proveedor
+openai
+google-genai
+ollama
