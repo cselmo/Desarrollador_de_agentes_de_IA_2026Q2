@@ -21,6 +21,10 @@ docente/
 # Carpeta de trabajo personal/scratch, no es parte del curso
 daia-clase2/
 
+# PDFs de la bibliografía: se bajan localmente con bibliography/descargar.sh,
+# no se redistribuyen desde este repo público (copyright de terceros)
+bibliography/papers/
+
 # Datos generados localmente al correr los notebooks (bases de ChromaDB, índices FAISS, SQLite, etc.)
 chroma_data/
 *.faiss

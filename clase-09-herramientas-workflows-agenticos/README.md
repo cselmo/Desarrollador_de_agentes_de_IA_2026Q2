@@ -2,10 +2,14 @@
 
 ## Contenido de esta carpeta
 
-- `clase-09.ipynb`: notebook de la clase (teoría, demos ejecutables y laboratorio).
+- `apunte.md`: **marco teórico de la clase**, con las fuentes anotadas al principio (qué contiene cada una y por qué se usa) y diagramas. Incluye una tabla de correspondencia con las secciones del notebook. Lectura obligatoria antes de la clase: *Building effective agents* (Anthropic) y §1–3 del paper de ReAct.
+- `clase-09.ipynb`: notebook de la clase (demos ejecutables y laboratorio). Cada sección indica el § del apunte donde está la teoría.
+- `clase-09-ejecutada.ipynb`: el mismo notebook ya corrido de punta a punta (con AWS Bedrock), para ver las salidas sin ejecutar nada.
 - `requirements.txt`: dependencias para correr el notebook.
 
-Al correr el notebook se crea `tickets.db` (SQLite) en esta misma carpeta — es un archivo generado localmente, no está versionado (ver `.gitignore` en la raíz del repo). Si querés empezar de cero, simplemente borrá el archivo y volvé a correr la sección 2 del notebook.
+Al correr el notebook se crea `tickets_clase09.db` (SQLite) en esta carpeta. Se borra y se recrea al inicio de cada corrida, y no está versionado (ver `.gitignore` en la raíz del repo).
+
+Los diagramas (en el apunte y en el notebook) están en Mermaid: se ven en GitHub y en JupyterLab 4.1+; en VS Code hace falta la extensión *Markdown Preview Mermaid Support* (`bierner.markdown-mermaid`).
 
 ## Cómo correr el notebook
 
