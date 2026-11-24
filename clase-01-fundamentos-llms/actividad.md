@@ -21,7 +21,7 @@ El curso es agnóstico de proveedor (Anthropic, OpenAI, Google, AWS Bedrock o mo
 |---|---|---|---|---|---|---|---|---|
 | Claude Sonnet 4.6 (Anthropic / AWS Bedrock) | | | | | | | | |
 | Cohere Embed 4 (AWS Bedrock) | | | | | | | | |
-| GPT-4o o equivalente (OpenAI) | | | | | | | | |
+| Modelo vigente de OpenAI | | | | | | | | |
 | Gemini (Google) | | | | | | | | |
 | (modelo abierto a elección, ej. Llama vía Ollama) | | | | | | | | |
 

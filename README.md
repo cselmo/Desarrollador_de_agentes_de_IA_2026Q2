@@ -54,6 +54,16 @@ El programa requiere participación activa en laboratorios de programación. No 
 
 La certificación se desarrolla mediante **12 clases sincrónicas virtuales de 3 horas, semanales**, actividades asincrónicas, laboratorios guiados, entregas incrementales y un Trabajo Práctico Final Integrador (ver [proyecto-integrador/README.md](proyecto-integrador/README.md)).
 
+## Material de cada clase
+
+Cada clase tiene su carpeta (`clase-XX-…/`) con:
+
+- **`apunte.md`** — el marco teórico de la clase. Empieza con la sección **Fuentes**: cada libro, paper o documento usado, con qué contiene y por qué se usa. Es la lectura previa y posterior a cada clase.
+- **`clase-XX.ipynb`** — el notebook que se corre en vivo (demos y laboratorio). Cada sección indica la sección del apunte con la teoría.
+- Algunas clases incluyen además una copia ya ejecutada del notebook, archivos `.py` auxiliares y un `README.md` con requisitos.
+
+La bibliografía de libre acceso se descarga localmente con `bash bibliography/descargar.sh` (ver [`bibliography/README.md`](bibliography/README.md)).
+
 ## Conocimientos mínimos
 
 Se requiere conocimiento intermedio de programación en Python. El estudiante debe sentirse cómodo:

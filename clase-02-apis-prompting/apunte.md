@@ -150,7 +150,21 @@ El *system prompt* fija el rol, las reglas y el formato para toda la conversaci�
 
 ### 4.3 El modelo no tiene memoria
 
-La API es **sin estado**: cada llamada es independiente. Para que el modelo "recuerde" una conversación, hay que reenviar todo el historial en cada llamada. Tres consecuencias:
+La API es **sin estado**: cada llamada es independiente. Para que el modelo "recuerde" una conversación, hay que reenviar todo el historial en cada llamada.
+
+```mermaid
+sequenceDiagram
+    participant A as Aplicación
+    participant M as API del modelo
+    A->>M: system + [usuario: "Me llamo Ana"]
+    M-->>A: asistente: "Hola, Ana"
+    Note over A: la aplicación guarda el historial
+    A->>M: system + [usuario: "Me llamo Ana", asistente: "Hola, Ana", usuario: "¿Cómo me llamo?"]
+    M-->>A: asistente: "Ana"
+    Note over M: el modelo no guardó nada:<br/>"recuerda" porque se le reenvió todo
+```
+
+Tres consecuencias:
 
 - el **costo** de una conversación crece con su largo (cada turno reenvía todos los anteriores);
 - la conversación está limitada por la **ventana de contexto** (Clase 1);

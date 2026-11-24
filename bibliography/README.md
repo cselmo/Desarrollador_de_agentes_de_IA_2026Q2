@@ -26,9 +26,15 @@ El script baja ~80 PDFs (papers de arXiv y algunos libros/papers de acceso abier
 
 | Clase | Apunte |
 |---|---|
+| 1 — Fundamentos de LLMs | [`clase-01-fundamentos-llms/apunte.md`](../clase-01-fundamentos-llms/apunte.md) |
+| 2 — APIs, prompting y configuración | [`clase-02-apis-prompting/apunte.md`](../clase-02-apis-prompting/apunte.md) |
+| 3 — Salidas estructuradas y aplicaciones robustas | [`clase-03-salidas-estructuradas/apunte.md`](../clase-03-salidas-estructuradas/apunte.md) |
+| 4 — Embeddings e ingesta documental | [`clase-04-embeddings-ingesta/apunte.md`](../clase-04-embeddings-ingesta/apunte.md) |
+| 5 — Vector stores y recuperación | [`clase-05-vector-stores-recuperacion/apunte.md`](../clase-05-vector-stores-recuperacion/apunte.md) |
+| 6 — Arquitectura RAG | [`clase-06-arquitectura-rag/apunte.md`](../clase-06-arquitectura-rag/apunte.md) |
 | 7 — RAG avanzado y debugging | [`clase-07-rag-avanzado-debugging/apunte.md`](../clase-07-rag-avanzado-debugging/apunte.md) |
 | 8 — Evaluación y mejora de RAG | [`clase-08-evaluacion-mejora-rag/apunte.md`](../clase-08-evaluacion-mejora-rag/apunte.md) |
 | 9 — Herramientas y workflows agénticos | [`clase-09-herramientas-workflows-agenticos/apunte.md`](../clase-09-herramientas-workflows-agenticos/apunte.md) |
 | 10 — LangGraph, human-in-the-loop y MCP | [`clase-10-langgraph-hitl-mcp/apunte.md`](../clase-10-langgraph-hitl-mcp/apunte.md) |
 
-Los apuntes de las clases 1 a 6 están en preparación.
+Cada apunte empieza con su sección **Fuentes** (qué contiene cada una y por qué se usa) y una tabla de correspondencia con las secciones del notebook de la clase.

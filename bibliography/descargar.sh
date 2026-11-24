@@ -100,6 +100,25 @@ bajar "2019_radford_gpt2-language-models-unsupervised-multitask.pdf" "https://cd
 bajar "2025_jurafsky-martin_speech-and-language-processing-3ed.pdf" "https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf" 1
 bajar "2008_manning_introduction-to-information-retrieval.pdf" "https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf" 1
 
+# --- Clases 1 a 6: fuentes agregadas en los apuntes ---
+bajar "2017_geifman_1705.08500.pdf" "https://arxiv.org/pdf/1705.08500" 3
+bajar "2018_devlin_1810.04805.pdf" "https://arxiv.org/pdf/1810.04805" 3
+bajar "2018_fan_1805.04833.pdf" "https://arxiv.org/pdf/1805.04833" 3
+bajar "2018_kudo_1808.06226.pdf" "https://arxiv.org/pdf/1808.06226" 3
+bajar "2019_petroni_1909.01066.pdf" "https://arxiv.org/pdf/1909.01066" 3
+bajar "2020_wang_2005.10242.pdf" "https://arxiv.org/pdf/2005.10242" 3
+bajar "2021_rashkin_2112.12870.pdf" "https://arxiv.org/pdf/2112.12870" 3
+bajar "2021_su_2104.09864.pdf" "https://arxiv.org/pdf/2104.09864" 3
+bajar "2022_kadavath_2207.05221.pdf" "https://arxiv.org/pdf/2207.05221" 3
+bajar "2022_mallen_2212.10511.pdf" "https://arxiv.org/pdf/2212.10511" 3
+bajar "2022_pope_2211.05102.pdf" "https://arxiv.org/pdf/2211.05102" 3
+bajar "2023_kwon_2309.06180.pdf" "https://arxiv.org/pdf/2309.06180" 3
+bajar "2023_pan_2310.14021.pdf" "https://arxiv.org/pdf/2310.14021" 3
+bajar "2023_ram_2302.00083.pdf" "https://arxiv.org/pdf/2302.00083" 3
+bajar "2023_sclar_2310.11324.pdf" "https://arxiv.org/pdf/2310.11324" 3
+bajar "2024_patel_2403.04871.pdf" "https://arxiv.org/pdf/2403.04871" 3
+bajar "2024_wallace_2404.13208.pdf" "https://arxiv.org/pdf/2404.13208" 3
+
 # --- Clase 10: LangGraph, human-in-the-loop y MCP ---
 bajar "2025_feng_2506.12469.pdf" "https://arxiv.org/pdf/2506.12469" 3
 bajar "2025_mitchell_2502.02649.pdf" "https://arxiv.org/pdf/2502.02649" 3
