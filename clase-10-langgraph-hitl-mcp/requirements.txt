@@ -1,0 +1,8 @@
+# Requiere Python 3.11 o superior (el SDK de MCP v2 lo exige)
+boto3
+python-dotenv
+chromadb
+pydantic
+langgraph>=1.2
+langgraph-checkpoint-sqlite
+mcp[cli]>=2.3

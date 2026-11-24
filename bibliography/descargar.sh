@@ -100,6 +100,23 @@ bajar "2019_radford_gpt2-language-models-unsupervised-multitask.pdf" "https://cd
 bajar "2025_jurafsky-martin_speech-and-language-processing-3ed.pdf" "https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf" 1
 bajar "2008_manning_introduction-to-information-retrieval.pdf" "https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf" 1
 
+# --- Clase 10: LangGraph, human-in-the-loop y MCP ---
+bajar "2025_feng_2506.12469.pdf" "https://arxiv.org/pdf/2506.12469" 3
+bajar "2025_mitchell_2502.02649.pdf" "https://arxiv.org/pdf/2502.02649" 3
+bajar "2025_beurer-kellner_2506.08837.pdf" "https://arxiv.org/pdf/2506.08837" 3
+bajar "2025_hou_2503.23278.pdf" "https://arxiv.org/pdf/2503.23278" 3
+bajar "2025_radosevich_2504.03767.pdf" "https://arxiv.org/pdf/2504.03767" 3
+bajar "2025_debenedetti_2503.18813.pdf" "https://arxiv.org/pdf/2503.18813" 3
+bajar "2023_wu_2308.08155.pdf" "https://arxiv.org/pdf/2308.08155" 3
+bajar "2025_cemri_2503.13657.pdf" "https://arxiv.org/pdf/2503.13657" 3
+bajar "2023_sumers_2309.02427.pdf" "https://arxiv.org/pdf/2309.02427" 3
+bajar "2023_packer_2310.08560.pdf" "https://arxiv.org/pdf/2310.08560" 3
+bajar "2023_xu_2305.18323.pdf" "https://arxiv.org/pdf/2305.18323" 3
+bajar "2010_malewicz_pregel.pdf" "https://kowshik.github.io/JPregel/pregel_paper.pdf" 1
+bajar "1987_garcia-molina_sagas.pdf" "https://www.cs.cornell.edu/andru/cs711/2002fa/reading/sagas.pdf" 1
+bajar "1983_bainbridge_ironies-of-automation.pdf" "https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf" 1
+bajar "2025_openai_practical-guide-to-building-agents.pdf" "https://cdn.openai.com/business-guides-and-resources/a-practical-guide-to-building-agents.pdf" 1
+
 # --- Descarga manual (el servidor bloquea descargas automáticas) ---
 echo
 echo "Bajar a mano desde el navegador y guardar en $DEST/:"

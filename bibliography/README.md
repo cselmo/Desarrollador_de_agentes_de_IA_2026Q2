@@ -29,5 +29,6 @@ El script baja ~80 PDFs (papers de arXiv y algunos libros/papers de acceso abier
 | 7 — RAG avanzado y debugging | [`clase-07-rag-avanzado-debugging/apunte.md`](../clase-07-rag-avanzado-debugging/apunte.md) |
 | 8 — Evaluación y mejora de RAG | [`clase-08-evaluacion-mejora-rag/apunte.md`](../clase-08-evaluacion-mejora-rag/apunte.md) |
 | 9 — Herramientas y workflows agénticos | [`clase-09-herramientas-workflows-agenticos/apunte.md`](../clase-09-herramientas-workflows-agenticos/apunte.md) |
+| 10 — LangGraph, human-in-the-loop y MCP | [`clase-10-langgraph-hitl-mcp/apunte.md`](../clase-10-langgraph-hitl-mcp/apunte.md) |
 
 Los apuntes de las clases 1 a 6 están en preparación.
